@@ -1,0 +1,36 @@
+.social-icon{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.social-icon li{
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icon li a{
+  background: #212121;
+  border-radius: 100%;
+  color: white;
+  font-size: 32px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  margin: 0 6px 40px 6px;
+}
+
+footer{
+  background-color: #212121;
+}
+
+.icon-traffic{
+  color: white;
+}
+.follow{
+  text-align: center;
+}

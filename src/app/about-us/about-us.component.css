@@ -1,0 +1,8 @@
+#teamPic{
+  background: url("../../assets/images/team.JPG")  no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 30em;
+}

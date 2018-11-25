@@ -1,0 +1,17 @@
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center flex-center-vertically"
+     xmlns:mailto="http://www.w3.org/1999/xhtml">
+  <main role="main" class="inner cover cover-top">
+    <h1 class="cover-heading">{{head[imgNum]}}</h1>
+    <p class="lead">{{lead[imgNum]}}</p>
+    <p class="lead">
+      <a routerLink="/info" [hidden]="imgNum !== 3" class="btn btn-lg btn-secondary">Erfahre mehr</a>
+      <a [hidden]="imgNum !== 1" class="btn btn-lg btn-secondary" href="mailto:team@4traffic.de">Kontaktiere uns!</a>
+    </p>
+  </main>
+  <div class="deep-world-container">
+    <deep-world [autoZoom]="true"
+                [imagePaths]="deepWorldEles"
+                (change)="handleImageChange($event)"
+    ></deep-world>
+  </div>
+</div>

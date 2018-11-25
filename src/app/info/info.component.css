@@ -1,0 +1,70 @@
+video{
+  height: 100%;
+  width: 100%;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.zoom-rounded-top{
+  border-radius: 21px 21px 0 0;
+}
+.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#storeAdvantages{
+  display: none;
+  height: 100%;
+}
+#storeContainer:hover #storeAdvantages{
+  display : block;
+}
+#storeContainer:hover #storePicture{
+  display : none;
+}
+
+#photographerAdvantages{
+  display: none;
+  height: 100%;
+}
+#photographerContainer:hover #photographerAdvantages{
+  display : block;
+}
+#photographerContainer:hover #photographerPicture{
+  display : none;
+}
+
+#introductionContainer{
+  margin-top: 5em !important;
+  margin-bottom: 5em !important;
+}
+#firstContainer{
+}
+
+#greenPic{
+  background-image: url("../../assets/images/green.jpg");
+  height: 100vh;
+  text-align: left;
+  font-weight: bold;
+}
+
+#secondContainer{
+}
+.priceWallet > img{
+  float: right;
+}
+
+.rewardPic > img{
+  height: 80%;
+  width: 80%;
+}
+#testphotographerContainer{
+  padding: 0 !important;
+}
+#testStoreContainer{
+  padding: 0 !important;
+}

@@ -1,0 +1,17 @@
+.cover-top{
+  z-index: 100;
+}
+
+main{
+  color: white;
+  width: 120%;
+}
+
+.deep-world-container{
+  max-height: 100px;
+  max-width: 100px;
+  overflow: hidden;
+}
+
+deep-world{
+}
